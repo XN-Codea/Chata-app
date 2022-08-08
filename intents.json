@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag":"greetings",
+      "patterns":["hi", "hey", "good day", "what's up", "how is it going?"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag":"goodbye",
+      "patterns":["See you later", "Goodbye"],
+      "responses":["Sad to see you go!", "Talk to you later"]
+    },
+    {
+      "tag":"name",
+      "patterns":["What is your name?", "What should I call you?"],
+      "responses":["You can call me Donald", "I'm Donald"]
+    },
+    {
+      "tag":"age",
+      "patterns":["How old are you?", "How old is Donald?"],
+      "responses":["I'm 25 year old", "I will be turning 25 years soon!"]
+    }
+  ]
+}
